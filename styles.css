@@ -1,0 +1,6 @@
+
+
+.code {
+  color: var(--main-gray);
+  transition: color 0.3s ease-out;
+}

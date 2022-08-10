@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jackson's portfolio</title>
+    <link rel="stylesheet" href="tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-body text-white font-poppins pb-12">
+    
+    <header>
+      <nav
+         class="
+            fixed
+           flex flex-wrap
+           items-center
+           justify-between
+           w-full
+           py-6
+           md:py-0
+           px-12
+           bg-body
+           transition-all
+           z-50
+         "
+       >
+        <div class="text-2xl font-bold">
+           <a href="#">Jackson</a>
+         </div>
+        
+          <svg
+             xmlns="http://www.w3.org/2000/svg"
+             id="menu-button"
+             class="h-6 w-6 cursor-pointer md:hidden block "
+             fill="none"
+             viewBox="0 0 24 24"
+             stroke="currentColor"
+           >
+             <path
+               stroke-linecap="round"
+               stroke-linejoin="round"
+               stroke-width="2"
+               d="M4 6h16M4 12h16M4 18h16"
+             />
+           </svg>
+        
+        <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+           <ul
+             class="
+               pt-4
+               
+               md:flex
+               md:justify-between 
+               md:pt-0"
+           >
+             <li>
+               <a class="md:p-4 py-2 block hover:text-purple-400" href="#"
+                 >Home</a
+               >
+             </li>
+             <li>
+               <a class="md:p-4 py-2 block hover:text-purple-400" href="#work"
+                 >Work</a
+               >
+             </li>
+             <li>
+               <a class="md:p-4 py-2 block hover:text-purple-400" href="#about"
+                 >About me</a
+               >
+             </li>
+             <li>
+               <a
+                 class="md:p-4 py-2 block hover:text-purple-400 text-purple-500"
+                 href="#contact"
+                 >Contact</a>
+             </li>
+           </ul>
+         </div>
+     </nav>
+   </header>
+<div
+class="container flex justify-between items-center w-full h-full bg-no-repeat bg-cover">
+
+<div class="flex flex-wrap md:flex-nowrap">
+        
+
+        <div
+          class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-72"
+        >
+          <h1
+            class="font-bold text-4xl md:text-5xl lg:text-6xl text-center md:text-left "
+          >
+            Welcome<br />to my personal portfolio
+          </h1>
+
+          <!-- lagacy button: class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3"  -->
+
+          <button class="px-8 py-4 mt-12 flex items-center space-x-3 transition ease-in-out delay-150 bg-theme hover:-translate-y-1 hover:scale-110 hover:bg-red-500 duration-300 ...">
+          
+            <div>
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.4375 11C14.4375 11.9117 14.0753 12.786 13.4307 13.4307C12.786 14.0753 11.9117 14.4375 11 14.4375C10.0883 14.4375 9.21398 14.0753 8.56932 13.4307C7.92466 12.786 7.5625 11.9117 7.5625 11C7.5625 10.0883 7.92466 9.21398 8.56932 8.56932C9.21398 7.92466 10.0883 7.5625 11 7.5625C11.9117 7.5625 12.786 7.92466 13.4307 8.56932C14.0753 9.21398 14.4375 10.0883 14.4375 11Z"
+                  fill="white"
+                />
+                <path
+                  d="M0 11C0 11 4.125 3.4375 11 3.4375C17.875 3.4375 22 11 22 11C22 11 17.875 18.5625 11 18.5625C4.125 18.5625 0 11 0 11ZM11 15.8125C12.2764 15.8125 13.5004 15.3055 14.403 14.403C15.3055 13.5004 15.8125 12.2764 15.8125 11C15.8125 9.72365 15.3055 8.49957 14.403 7.59705C13.5004 6.69453 12.2764 6.1875 11 6.1875C9.72365 6.1875 8.49957 6.69453 7.59705 7.59705C6.69453 8.49957 6.1875 9.72365 6.1875 11C6.1875 12.2764 6.69453 13.5004 7.59705 14.403C8.49957 15.3055 9.72365 15.8125 11 15.8125Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <span>View my work</span>
+          </button>
+        </div>
+      </div>
+      <!-- <img src="img/jackson-pic.png" alt="profile-pic" class="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-1"> -->
+    </div>
+
+    <!-- My work -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="work" class="secondary-title">My work</h2>
+				<p class="section-paragraph">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-6" >
+          
+            <a href="https://www.facebook.com/pickleread" target="_blank">
+              <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer m-4 dark:bg-gray-600 duration-300 ease-in-out transition-transform transform hover:-translate-y-2">
+                <img class="object-cover w-full h-80" src="/img/Facebook.PNG" alt="facebook">
+                
+                
+                <div class="items-center text-center m-3">
+                  <p class="text-lg font-bold text-white-700 dark:text-white-200">Facebook Page</p>
+                </div>
+              </div>
+          </a>
+        
+          <a href="https://codepen.io/collection/oErvgM" target="_blank">
+					  <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer m-4 dark:bg-gray-600 duration-300 ease-in-out transition-transform transform hover:-translate-y-2">
+              <img class="object-cover w-full h-80" src="/img/CodePen.PNG" alt="codepen">
+              
+              
+              <div class="items-center text-center m-3">
+                <p class="text-lg font-bold text-white-700 dark:text-white-200">CodePen Project</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.blockdit.com/pickle" target="_blank">
+            <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer m-4 dark:bg-gray-600 duration-300 ease-in-out transition-transform transform hover:-translate-y-2">
+              <img class="object-cover w-full h-80" src="/img/Blockdit.PNG" alt="blockdit">
+              
+              
+              <div class="items-center text-center m-3">
+                <p class="text-lg font-bold text-white-700 dark:text-white-200">PickleRead</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://500px.com/p/jacksongreyrat" target="_blank">
+            <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer m-4 dark:bg-gray-600 duration-300 ease-in-out transition-transform transform hover:-translate-y-2">
+              <img class="object-cover w-full h-80" src="/img/500px.PNG" alt="500px">
+              
+              
+              <div class="items-center text-center m-3">
+                <p class="text-lg font-bold text-white-700 dark:text-white-200">Gallery 500px</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://medium.com/@thejackjackson" target="_blank">
+            <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer m-4 dark:bg-gray-600 duration-300 ease-in-out transition-transform transform hover:-translate-y-2">
+              <img class="object-cover w-full h-80" src="/img/medium.png" alt="medium">
+              
+              
+              <div class="items-center text-center m-3">
+                <p class="text-lg font-bold text-white-700 dark:text-white-200">Medium Article</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://t.co/nW75wM1Vut" target="_blank">
+					  <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer m-4 dark:bg-gray-600 duration-300 ease-in-out transition-transform transform hover:-translate-y-2">
+              <img class="object-cover w-full h-80 object-fit" src="/img/foundation.jpg" alt="foundation">
+              
+              
+              <div class="items-center text-center m-3">
+                <p class="text-lg font-bold text-white-700 dark:text-white-200">Foundation NFTs</p>
+              </div>
+            </div>
+          </a>
+
+
+				</div>
+			</section>
+		</div>
+
+    <!-- about me -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="about" class="secondary-title">About me</h2>
+				<p class="section-paragraph">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+
+				<!-- about me -->
+				<div class="space-y-12 my-16">
+					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+						
+						<!-- about me logo -->
+						<div class="mb-6 lg:mb-0 ">
+							<img src="/img/UdemyCert.jpg" alt="udemyPng">
+						</div>
+
+						<!-- Client info -->
+						<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+							<h3 class="text-white text-3xl font-semibold">Udemy</h3>
+
+							<div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+								<div class="badge">Web development</div>
+								<div class="badge">Frontend development</div>
+							</div>
+
+							<p class="text-secondary">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+						</div>
+
+					</div>
+					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+						
+						<!-- Client logo -->
+						<div class="mb-6 lg:mb-0">
+							<img src="/img/FccCert.PNG" alt="FreeCodeCampPng">
+						</div>
+
+						<!-- Client info -->
+						<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+							<h3 class="text-white text-3xl font-semibold">FreeCodeCamp</h3>
+
+							<div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+								<div class="badge">Web development</div>
+								<div class="badge">Frontend development</div>
+							</div>
+
+							<p class="text-secondary">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+						</div>
+
+					</div>
+					
+
+					</div>
+				</div>
+
+			</section>
+		</div>
+
+
+		<!-- Contact -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="contact" class="secondary-title">Keep in touch with me</h2>
+				<p class="section-paragraph">Feel free to to contact me any time, through any method below.</p>
+
+				<div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
+					<div class="space-y-12">
+						<div>
+							<label class="text-white block mb-6 text-xl font-bold">Name</label>
+							<input class="w-full border border-input-border bg-input px-4 py-4">
+						</div>
+						<div>
+							<label class="text-white block mb-6 text-xl font-bold">Email</label>
+							<input type="email" class="w-full border border-input-border bg-input px-4 py-4">
+						</div>
+						<div>
+							<label class="text-white block mb-6 text-xl font-bold">Message</label>
+							<textarea type="email" class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"></textarea>
+						</div>
+						<button class="px-6 py-2 bg-theme text-white font-bold">Send it!</button>
+					</div>
+
+					<div class="mt-12">
+						<!-- Contact info -->
+						<p class="text-secondary">My Email</p>
+						<a href="jacksongreyrat@gmail.com" class="text-secondary underline mt-3 block">jacksongreyrat@gmail.com</a>
+
+						<!-- Socials -->
+						<div class="flex mt-20 space-x-6">
+							<!-- Github -->
+							<a href="https://github.com/jacksongreyrat" target="_blank">
+								<ion-icon name="logo-github" size="large"></ion-icon>
+							</a>
+							<!-- LinkedIn -->
+							<a href="https://www.linkedin.com/in/wowiwat-prakopphan-959164235/" target="_blank">
+                <ion-icon name="logo-linkedin" size="large"></ion-icon>
+							</a>
+              <!-- Instagram -->
+              <a href="https://www.instagram.com/picklereading/" target="_blank">
+                <ion-icon name="logo-instagram" size="large"></ion-icon>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+
+			</section>
+		</div>
+        <script src="script.js"></script>
+        <script src="main.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
