@@ -18,16 +18,15 @@
     <header>
       <nav
          class="
-            fixed
+           fixed
            flex flex-wrap
            items-center
            justify-between
            w-full
-           py-6
+           py-4
            md:py-0
            px-12
-           bg-body
-           transition-all
+           bg-theme
            z-50
          "
        >
@@ -51,33 +50,33 @@
              />
            </svg>
         
-        <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+        <div class=" hidden w-full md:flex md:items-center md:w-auto " id="menu">
            <ul
              class="
+              
                pt-4
-               
                md:flex
                md:justify-between 
                md:pt-0"
            >
              <li>
-               <a class="md:p-4 py-2 block hover:text-purple-400" href="#"
+               <a class="md:p-4 py-2 block hover:text-body" href="#"
                  >Home</a
                >
              </li>
              <li>
-               <a class="md:p-4 py-2 block hover:text-purple-400" href="#work"
+               <a class="md:p-4 py-2 block hover:text-body" href="#work"
                  >Work</a
                >
              </li>
              <li>
-               <a class="md:p-4 py-2 block hover:text-purple-400" href="#about"
+               <a class="md:p-4 py-2 block hover:text-body" href="#about"
                  >About me</a
                >
              </li>
              <li>
                <a
-                 class="md:p-4 py-2 block hover:text-purple-400 text-purple-500"
+                 class="md:p-4 py-2 block hover:text-body text-white-500"
                  href="#contact"
                  >Contact</a>
              </li>
@@ -85,12 +84,11 @@
          </div>
      </nav>
    </header>
+
 <div
-class="container flex justify-between items-center w-full h-full bg-no-repeat bg-cover">
+class="container flex justify-between bg-cover mx-auto items-center w-full h-full">
 
 <div class="flex flex-wrap md:flex-nowrap">
-        
-
         <div
           class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-72"
         >
@@ -102,7 +100,7 @@ class="container flex justify-between items-center w-full h-full bg-no-repeat bg
 
           <!-- lagacy button: class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3"  -->
 
-          <button class="px-8 py-4 mt-12 flex items-center space-x-3 transition ease-in-out delay-150 bg-theme hover:-translate-y-1 hover:scale-110 hover:bg-red-500 duration-300 ...">
+          <!-- <button class="px-8 py-4 mt-12 flex items-center space-x-3 transition ease-in-out delay-150 bg-theme hover:-translate-y-1 hover:scale-110 hover:bg-red-500 duration-300 ...">
           
             <div>
               <svg
@@ -123,14 +121,14 @@ class="container flex justify-between items-center w-full h-full bg-no-repeat bg
               </svg>
             </div>
             <span>View my work</span>
-          </button>
+          </button> -->
         </div>
       </div>
-      <!-- <img src="img/jackson-pic.png" alt="profile-pic" class="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 -z-1"> -->
+      <img src="img/jackson-pic.png" alt="profile-pic" class="w-3/4 -z-1 items-right">
     </div>
 
     <!-- My work -->
-		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+		<div class="container mt-12 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			<section class="w-full">
 				<h2 id="work" class="secondary-title">My work</h2>
 				<p class="section-paragraph">These are my current project that I've had working on it. Feel free to check it out and leave me with a following.</p>
@@ -190,7 +188,7 @@ class="container flex justify-between items-center w-full h-full bg-no-repeat bg
           </a>
           <a href="https://t.co/nW75wM1Vut" target="_blank">
 					  <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer m-4 dark:bg-gray-600 duration-300 ease-in-out transition-transform transform hover:-translate-y-2">
-              <img class="object-cover w-full h-80 object-fit" src="./img/foundation.jpg" alt="foundation">
+              <img class="object-cover w-full h-80 object-fit" src="./img/foundation.png" alt="foundation">
               
               
               <div class="items-center text-center m-3">
@@ -305,9 +303,11 @@ class="container flex justify-between items-center w-full h-full bg-no-repeat bg
 							</a>
 						</div>
 					</div>
-					
+					<footer>
+            <p>&copy; Copyright 2022, Jackson Greyrat. All Rights Reserved.</p>
+          </footer>
 				</div>
-
+        
 			</section>
 		</div>
         <script src="script.js"></script>
